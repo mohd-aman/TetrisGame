@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 90vh;
+    background-color: whitesmoke;
+    flex-direction: column;
+}
+
+#tetris{
+    background-color: white;
+    box-shadow: 0 0 10px 0 lightgray;
+    border-radius: 5px;
+}
