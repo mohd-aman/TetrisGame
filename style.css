@@ -1,14 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     display: flex;
+    height: 90vh;
     align-items: center;
     justify-content: space-evenly;
-    height: 90vh;
-    background-color: whitesmoke;
     flex-direction: column;
+    background-color: whitesmoke;
 }
 
 #tetris{
     background-color: white;
-    box-shadow: 0 0 10px 0 lightgray;
-    border-radius: 5px;
+    box-shadow: 0 0 10px 2px lightgrey;
 }
